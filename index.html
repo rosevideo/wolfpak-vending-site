@@ -32,16 +32,25 @@
   <link rel="stylesheet" href="style.css" />
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Wolfpak Vending",
-    "url": "https://wolfpakvending.com",
-    "areaServed": "Orlando, Florida",
-    "description": "Digital vending machines for bars, nightlife venues, gyms, apartments, and entertainment locations.",
-    "sameAs": []
-  }
-  </script>  
+{
+ "@context": "https://schema.org",
+ "@type": "LocalBusiness",
+ "name": "Wolfpak Vending",
+ "url": "https://wolfpakvending.com",
+ "areaServed": {
+   "@type": "City",
+   "name": "Orlando"
+ },
+ "address": {
+   "@type": "PostalAddress",
+   "addressLocality": "Orlando",
+   "addressRegion": "FL",
+   "addressCountry": "US"
+ },
+ "description": "Digital vending machines for bars, gyms, nightlife venues, and high-traffic locations in Orlando.",
+ "sameAs": []
+}
+</script>
 
 <meta name="geo.region" content="US-FL">
 <meta name="geo.placename" content="Orlando">  
